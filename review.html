@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<style>
+			#mydiv{
+			height:150px;
+		    width:150px;
+			border-radius:10%;
+			background-color:orange;
+				text-align:center;
+				color:white;
+			}
+			
+			#div{
+			height:150px;
+		    width:150px;
+			border-radius:10%;
+				text-align:center;
+				color:white;
+			}
+		
+		</style>
+	
+	
+	</head>
+	<body>
+		<div id="mydiv"><h1>i can change</h1></div>
+		
+		<div id="div">
+		<button onclick="myfunction()">click me</button>
+		</div>
+		
+		<script>
+		function myfunction(){
+
+	document.getElementById("mydiv").style.boxShadow = "10px 30px 30px blue";
+    
+}
+		</script>
+		
+	</body>
+
+</html>
